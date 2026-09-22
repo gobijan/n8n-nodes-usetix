@@ -1,0 +1,15 @@
+{
+  "node": "n8n-nodes-usetix.usetixTrigger",
+  "nodeVersion": "1.0",
+  "codexVersion": "1.0",
+  "categories": [
+    "Sales"
+  ],
+  "resources": {
+    "primaryDocumentation": [
+      {
+        "url": "https://www.usetix.io/docs/api/"
+      }
+    ]
+  }
+}

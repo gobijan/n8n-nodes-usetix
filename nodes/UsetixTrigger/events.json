@@ -1,0 +1,98 @@
+[
+  {
+    "action": "order.paid",
+    "key": "order_paid",
+    "label": "Order Paid",
+    "eventScoped": true
+  },
+  {
+    "action": "order.refunded",
+    "key": "order_refunded",
+    "label": "Order Refunded",
+    "eventScoped": true
+  },
+  {
+    "action": "order.cancelled",
+    "key": "order_cancelled",
+    "label": "Order Cancelled",
+    "eventScoped": true
+  },
+  {
+    "action": "event.published",
+    "key": "event_published",
+    "label": "Event Published",
+    "eventScoped": true
+  },
+  {
+    "action": "event.unpublished",
+    "key": "event_unpublished",
+    "label": "Event Unpublished",
+    "eventScoped": true
+  },
+  {
+    "action": "ticket.redeemed",
+    "key": "ticket_redeemed",
+    "label": "Ticket Checked In",
+    "eventScoped": true
+  },
+  {
+    "action": "voucher.issued",
+    "key": "voucher_issued",
+    "label": "Voucher Issued",
+    "eventScoped": false
+  },
+  {
+    "action": "voucher.redeemed",
+    "key": "voucher_redeemed",
+    "label": "Voucher Redeemed",
+    "eventScoped": false
+  },
+  {
+    "action": "voucher.refunded",
+    "key": "voucher_refunded",
+    "label": "Voucher Refunded",
+    "eventScoped": false
+  },
+  {
+    "action": "voucher.adjusted",
+    "key": "voucher_adjusted",
+    "label": "Voucher Balance Adjusted",
+    "eventScoped": false
+  },
+  {
+    "action": "voucher.expired",
+    "key": "voucher_expired",
+    "label": "Voucher Expired",
+    "eventScoped": false
+  },
+  {
+    "action": "voucher.blocked",
+    "key": "voucher_blocked",
+    "label": "Voucher Blocked",
+    "eventScoped": false
+  },
+  {
+    "action": "voucher.unblocked",
+    "key": "voucher_unblocked",
+    "label": "Voucher Unblocked",
+    "eventScoped": false
+  },
+  {
+    "action": "voucher.voided",
+    "key": "voucher_voided",
+    "label": "Voucher Voided",
+    "eventScoped": false
+  },
+  {
+    "action": "voucher_purchase.paid",
+    "key": "voucher_purchase_paid",
+    "label": "Voucher Purchase Paid",
+    "eventScoped": false
+  },
+  {
+    "action": "voucher_purchase.refunded",
+    "key": "voucher_purchase_refunded",
+    "label": "Voucher Purchase Refunded",
+    "eventScoped": false
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "name": "n8n-nodes-usetix",
+  "version": "1.0.0",
+  "description": "Official Usetix nodes for event ticketing and automation",
+  "keywords": [
+    "n8n-community-node-package",
+    "usetix",
+    "ticketing"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Usetix",
+    "email": "support@usetix.io"
+  },
+  "homepage": "https://www.usetix.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gobijan/n8n-nodes-usetix.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && node scripts/copy-assets.mjs",
+    "lint": "n8n-node lint",
+    "test": "node --test test/*.test.js"
+  },
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/UsetixApi.credentials.js",
+      "dist/credentials/UsetixOAuth2Api.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Usetix/Usetix.node.js",
+      "dist/nodes/UsetixTrigger/UsetixTrigger.node.js"
+    ]
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "devDependencies": {
+    "@n8n/node-cli": "0.48.6",
+    "@types/node": "^22.0.0",
+    "n8n-workflow": "2.16.0",
+    "prettier": "3.6.2",
+    "typescript": "^5.9.3"
+  }
+}
