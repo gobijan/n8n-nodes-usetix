@@ -7,10 +7,10 @@ order, event, check-in and voucher notifications.
 ## Install
 
 In a self-hosted n8n instance, open **Settings → Community Nodes → Install** and
-enter `n8n-nodes-usetix` after this package has been published. Availability in
-n8n Cloud requires a separate n8n verification; installing locally does not imply
-that the node has been verified. The package is currently prepared for its first
-publication.
+enter `n8n-nodes-usetix`. Version 1.0.1 is published on npm and includes a
+GitHub Actions provenance statement. Availability in n8n Cloud requires n8n
+verification. Automated review has passed; manual review still needs a short
+demo video. Installing the package does not by itself mean the node is verified.
 
 ## Credentials
 
@@ -70,9 +70,9 @@ GitHub `npm` environment and either a narrowly scoped `NPM_TOKEN` secret for the
 first release or an npm trusted publisher for this repository and workflow.
 The token belongs in GitHub Actions secrets, never in this repository.
 
-After publication, submit the package in the [n8n Creator Portal](https://creators.n8n.io/nodes).
-Run real activation, delivery, refresh, revocation and duplicate-action scenarios
-before requesting verification.
+The package is submitted in the [n8n Creator Portal](https://creators.n8n.io/nodes/n8n-nodes-usetix/integration).
+Automated review passed on 2026-09-22. Manual review is waiting for a demo video
+of install, credential test, and a common action.
 
 ## License
 
