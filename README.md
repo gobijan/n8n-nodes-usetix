@@ -7,8 +7,8 @@ order, event, check-in and voucher notifications.
 ## Install
 
 In a self-hosted n8n instance, open **Settings → Community Nodes → Install** and
-enter `n8n-nodes-usetix`. Version 1.0.1 is published on npm and includes a
-GitHub Actions provenance statement. Availability in n8n Cloud requires n8n
+enter `n8n-nodes-usetix`. Use version 1.0.2 or later, published with a GitHub
+Actions provenance statement. Availability in n8n Cloud requires n8n
 verification. Automated review has passed; the demo video is submitted and
 manual review is under way. Installing the package does not by itself mean the
 node is verified.
@@ -76,6 +76,9 @@ Automated review passed on 2026-09-22. The demo video was uploaded that day and
 the portal showed **Manual Review: Under Review** on 2026-09-23. The review team
 quotes up to four weeks. The [review release](https://github.com/gobijan/n8n-nodes-usetix/releases/tag/n8n-review-demo-1.0.1)
 contains the submitted installation, credential and action demonstration.
+
+Version 1.0.2 corrects the npm README and package metadata. Its runtime nodes
+and credentials are unchanged from the 1.0.1 review demonstration.
 
 ## License
 
