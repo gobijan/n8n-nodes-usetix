@@ -9,8 +9,9 @@ order, event, check-in and voucher notifications.
 In a self-hosted n8n instance, open **Settings → Community Nodes → Install** and
 enter `n8n-nodes-usetix`. Version 1.0.1 is published on npm and includes a
 GitHub Actions provenance statement. Availability in n8n Cloud requires n8n
-verification. Automated review has passed; manual review still needs a short
-demo video. Installing the package does not by itself mean the node is verified.
+verification. Automated review has passed; the demo video is submitted and
+manual review is under way. Installing the package does not by itself mean the
+node is verified.
 
 ## Credentials
 
@@ -65,14 +66,16 @@ npm test
 
 This directory is the complete public package source. The parent Usetix
 application is private and must not be included in its repository or npm tarball.
-Publish from `.github/workflows/publish.yml`, which signs npm provenance. Set the
-GitHub `npm` environment and either a narrowly scoped `NPM_TOKEN` secret for the
-first release or an npm trusted publisher for this repository and workflow.
-The token belongs in GitHub Actions secrets, never in this repository.
+Publish from `.github/workflows/publish.yml` in the public repository. The workflow
+uses the GitHub `npm` environment and npm trusted publishing to sign provenance.
+Its repository, workflow filename and environment must match the npm trusted
+publisher configuration. No npm token is stored in source or the workflow.
 
 The package is submitted in the [n8n Creator Portal](https://creators.n8n.io/nodes/n8n-nodes-usetix/integration).
-Automated review passed on 2026-09-22. Manual review is waiting for a demo video
-of install, credential test, and a common action.
+Automated review passed on 2026-09-22. The demo video was uploaded that day and
+the portal showed **Manual Review: Under Review** on 2026-09-23. The review team
+quotes up to four weeks. The [review release](https://github.com/gobijan/n8n-nodes-usetix/releases/tag/n8n-review-demo-1.0.1)
+contains the submitted installation, credential and action demonstration.
 
 ## License
 
